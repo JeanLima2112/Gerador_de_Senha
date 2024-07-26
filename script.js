@@ -5,7 +5,7 @@ let password = document.querySelector('#password');
 let size = document.querySelector('#valor');
 
 let container = document.querySelector('#container-password');
-let charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%,.:¨&*_+=-[];/?';
+let charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%¨&*()"_-+=:;,.^~}{';
 let Novasenha = "";
 
 size.innerHTML = slider.value;
